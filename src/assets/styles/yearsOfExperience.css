@@ -1,0 +1,36 @@
+.years {
+    width: full;
+    height: 200px;
+    background: #F4F0EC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.years div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+.years div p:nth-child(1){
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    align-items: center;
+    color: #CDA274;
+}
+
+.years div p:nth-child(2){
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1px;    
+    display: flex;
+    align-items: center;
+    color: #4D5053;
+}

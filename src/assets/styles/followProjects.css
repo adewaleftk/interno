@@ -1,0 +1,37 @@
+/* .follow-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.follow-projects-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-projects-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+    
+}
+
+.follow-our-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-projects-info {
+    flex-basis: 50%;
+}
+
+.follow-projects-info img {
+    width: 70%;
+}

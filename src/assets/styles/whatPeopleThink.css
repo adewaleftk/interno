@@ -1,0 +1,54 @@
+.whatPeopleThink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F4F0EC;
+    margin: 2em 10em 0em 10em;
+    height: 479px;
+    border-radius: 3em;
+}
+
+.full-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;   
+    color: #292F36;
+}
+
+.image-info {
+    display: flex;
+}
+
+.image-info img {
+    border-radius: 50%;
+}
+
+.what {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 3px;
+    background: #FFFFFF;
+}
+
+.what-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.what-name p:nth-child(1) {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 3px;
+}

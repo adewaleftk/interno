@@ -1,0 +1,31 @@
+.wannajoin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 394px;
+    background: #292F36;
+    border-radius: 70px;
+    color: #FFFFFF;
+    line-height: 70px;
+}
+
+.wannajoin h3 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center; 
+}
+
+.wannajoin p:nth-child(3) {
+    background: #CDA274;
+    height: 57px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    font-size: 22px;
+}

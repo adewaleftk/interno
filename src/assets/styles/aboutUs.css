@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-hero {
+    background: url(../images/About-bg.png);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.about-hero-words {
+    background: #ffffff;
+    width: 15em;
+    text-align: center;
+    border-radius: 37px 37px 0px 0px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid grey;
+    width: full;
+    font-family: 'DM Serif Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    color: #292F36;
+    border-radius: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-intro p:nth-child(5) {
+    color: #4D5053;
+    font-size: 22px;
+}
+
+.about-what-we-do {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-what-we-do-words h3 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+
+.about-what-we-do-words p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;  
+    color: #4D5053;
+}
+
+.about-what-we-do-words p:last-child {
+    color: #ffffff;
+    width: 220.14px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #292F36;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+}
+
+.about-what-we-do-image img {
+    border-radius: 70px;
+    width: 450px;
+    margin-left: 20px;
+}
+  
+.the-end-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sofa-image img {
+    width: 450px;
+    border-radius: 70px;
+}
+
+.the-end-result-words p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;  
+    color: #4D5053;
+}
+
+.the-end-result-words p:last-child {
+    color: #ffffff;
+    width: 220.14px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #292F36;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+}
+
+.meet-the-team {
+    display: flex;
+    flex-direction: column;
+    background: #F4F0EC;
+    width: 100%;
+}
+
+.meet-the-team-heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    color: #292F36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-the-team-images img {
+    margin: 20px;
+    border-radius: 70px;
+    height: 400px;
+}
+
+.meet-the-team-images {
+    display: flex;
+    justify-content: center;
+}
+
+.talk-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 550px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.name-and-email {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-and-email .form-input {
+    width: 250px;
+}
+
+.talk-form-heading h3 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+
+.form-submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 220.14px;
+    height: 75px;  
+    background: #292F36;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+    color: #ffffff;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.about-navbar {
+    width: 100%;
+}
+
+.about-footer {
+    width: 100%;
+}
+
+.about-copyright {
+    width: 100%;
+}

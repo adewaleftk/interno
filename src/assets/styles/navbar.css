@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background: #F5F5F5;
+    height: 70px;
+    width: full;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    height: 34px;
+    margin-right: 10px;
+}
+
+.logo p {
+    color: #292F36;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 125%;
+    font-family: 'DM Serif Display', serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    line-height: 125%;
+    color: #252B42;
+    font-family: 'Jost';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+}
+  
+.nav-link:hover {
+    color: #E10000;
+}
+  
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5.2rem;
+}
+  
+.nav_toggler div {
+    width: 39px;
+    height: 7px;
+    margin: 0.4rem;
+    background: #000000;
+    transition: 0.4s ease-in;
+}
+  
+ul {
+    list-style: none;
+}
+  
+.nav_toggler {
+    cursor: pointer;
+    display: none;
+}

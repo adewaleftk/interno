@@ -1,0 +1,53 @@
+.infoz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #E6E6E6;
+    padding: 1em;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+.interior {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #E6E6E6;
+    padding: 1em;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    
+    color: #4D5053;
+}
+
+.realization {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #E6E6E6;
+    padding: 1em;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    
+    color: #4D5053;
+}
+
+.infos h3 {
+    color: #292F36;
+}

@@ -1,0 +1,63 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles-profiles {
+    display: flex;
+    flex-direction: row;
+}
+
+.all-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles-profiles-info {
+    background-image: url('../images/Kitchen-design.png');
+    background-size: cover;
+    margin: 2em;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+    .articles-profiles-info p {
+    color: #4D5053;
+    background-color: #ffffff;
+    width: full;
+    padding: 5px;
+}
+
+.second-articles p:nth-child(1) {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #292F36;
+}
+
+.second-articles p:nth-child(2) {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #292F36;
+}
+
+.second-articles p:nth-child(3) {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #292F36;
+}
+  
