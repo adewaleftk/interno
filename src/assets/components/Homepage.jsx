@@ -12,7 +12,9 @@ import Copyright from './Copyright'
 
 
 function Homepage() {
+
   return (
+
     <div>
         <Navbar />
         <Hero />
